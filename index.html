@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<head>
+  
+    <title>Collage Creator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+ 
+
+    <input type="file" id="imageLoader" name="imageLoader"  /><br>
+    <div id= "instructions">
+  <p>Upload your images one at a time in the order you want them to appear. (Keep in mind image sizes, results are typically best using various sizes and layering files large -> small.) </p>
+       </div>
+    <div id="refreshPage">
+        <p>(Refresh page to start over)</p>
+    </div>
+    <div id="canvasHolder"></div>
+    <div id="textControls">
+        <input type="text" id="textOption" placeholder="Got something to say?">
+      
+    </div>
+  
+
+        <button id="createCollage">Collage</button>
+  
+  
+  <button id="saveImage">Save Image</button>
+
+
+</body>
+</html>
