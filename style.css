@@ -42,7 +42,7 @@ font-family: 'Roboto Mono', monospace;    display: flex;
   
 }
 #imageLoader{
- top: 900px;
+ margin-top: 300px;
   font-size:12;
 }
 body, html {
