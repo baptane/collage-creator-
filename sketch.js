@@ -2,7 +2,7 @@
 let images = [];
 let texts = [];
 let toDisplay = false;
-const canvasSize = 800;
+const canvasSize = 700;
 function setup() {
   let canvas = createCanvas(canvasSize, canvasSize);
   canvas.parent("canvasHolder");
